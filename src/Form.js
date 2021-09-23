@@ -7,9 +7,9 @@ export default function Search() {
   let [loaded, setLoaded] = useState(false);
   let [weather, setWeather] = useState({});
 
-  function showForcast(response) {
+  function showForecast(response) {
     setLoaded(true);
-    setWeather({
+      setWeather({
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       wind: response.data.wind.speed,
@@ -23,7 +23,7 @@ export default function Search() {
     let apiKey = "5d28e41830862bc850144acfa82e7516";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
-    axios.get(url).then(showForcast);
+    axios.get(url).then(showForecast);
   }
 
   function updateCity(event) {
@@ -46,10 +46,11 @@ export default function Search() {
     return (
       <div className="weather">
         {form}
-        <p>Temperature: {Math.round(weather.temperature)}°C</p>
-        <p>Description: {weather.description}</p>
-        <p>Wind: {weather.wind}%</p>
-        <p>Humidity: {weather.humidity}Km/H</p>
+        <p>City:</p>
+        <p>{Math.round(weather.temperature)}°C</p>
+        <p>{weather.description}</p>
+        <p>{weather.wind}%</p>
+        <p>{weather.humidity}Km/H</p>
         <img src={weather.Icon} alt={weather.description} />
       </div>
     );

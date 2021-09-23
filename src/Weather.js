@@ -13,13 +13,6 @@ export default function Weather() {
         </span>
           </p>
 
-          <div className="container">
-              <div className="row">
-                  <div className="col">testing</div>
-                  <div className="col">testing</div>
-              </div>
-              
-          </div>
           </div>
   );
 }

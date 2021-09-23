@@ -73,9 +73,9 @@
 }
 
 Form {
-  width: 500px;
-  margin: 0 auto;
+  text-align: center;
 }
+
 
 index {
   width: 500px;
@@ -236,3 +236,4 @@ body {
   color: rgb(0, 0, 0);
   border-radius: 5px;
 }
+

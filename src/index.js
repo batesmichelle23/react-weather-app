@@ -11,6 +11,7 @@ import axios from "axios";
 
 ReactDOM.render(
   <React.StrictMode>
+    <App />
     <Form />
   </React.StrictMode>,
   document.getElementById('root')
