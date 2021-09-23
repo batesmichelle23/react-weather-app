@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Form from "./Form";
+import Weather from "./Weather";
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Form />
+    <Weather />
   </React.StrictMode>,
   document.getElementById('root')
 );
