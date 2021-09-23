@@ -87,6 +87,10 @@ Form {
   border-radius: 10px;
 }
 
+#open{
+  text-align: center;
+  padding-top: 10px;
+}
 
 index {
   width: 500px;
