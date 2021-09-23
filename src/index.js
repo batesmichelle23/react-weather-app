@@ -5,13 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Form from "./Form";
 import Weather from "./Weather";
+import axios from "axios";
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Form />
-    <Weather />
   </React.StrictMode>,
   document.getElementById('root')
 );
