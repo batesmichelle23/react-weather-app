@@ -4,8 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Form from "./Form";
-import Weather from "./Weather";
-import axios from "axios";
+
 
 
 

@@ -76,6 +76,17 @@ Form {
   text-align: center;
 }
 
+.weather {
+  text-align: center;
+  border: 2px solid rgb(211, 211, 211);
+  background-color: rgb(211, 211, 211);
+  width: 300px;
+  padding: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 
 index {
   width: 500px;
