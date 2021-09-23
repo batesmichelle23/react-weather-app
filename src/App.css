@@ -36,3 +36,203 @@
     transform: rotate(360deg);
   }
 }
+.Title {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.current-city {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.currentDate {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.current-temp {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fa-sun {
+  color: rgb(207, 207, 102);
+  font-size: 30px;
+}
+
+.weather {
+  text-align: center;
+}
+
+Form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+index {
+  width: 500px;
+}
+
+#days {
+  font-size: 22px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.forecast {
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  margin: auto;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  border-radius: 25px;
+  width: 700px;
+  padding: 20px;
+}
+
+#icons {
+  color: rgb(207, 207, 102);
+  font-size: 30px;
+}
+
+body {
+  height: 769px;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+#iconDay1:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#iconDay2:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#iconDay3:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#iconDay4:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#iconDay5:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#sun:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#mon:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tue:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#wed:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#thu:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tempDay1:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tempDay2:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tempDay3:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tempDay4:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#tempDay5:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#feelsLikeDay1:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#feelsLikeDay2:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#feelsLikeDay3:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#feelsLikeDay4:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#feelsLikeDay5:hover {
+  background-color: rgb(70, 208, 233);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
